@@ -9,6 +9,7 @@
 import Foundation
 
 struct Card: Hashable {
+	
 	var hashValue: Int {
 		return identifier
 	}
